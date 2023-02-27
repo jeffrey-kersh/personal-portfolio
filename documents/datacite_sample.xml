@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resource 
+xmlns="https://schema.datacite.org/meta/kernel-4.3/"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://schema.datacite.org/meta/kernel-4.3/metadata.xsd">
+    <identifier identifierType="DOI">10.1000/xyz123</identifier>
+
+    <titles>
+        <title xml:lang="En">Correlating Enzymatic Activity of BcHMGR with its Oligomeric States</title>
+    </titles>
+
+    <creators>
+        <creator>
+            <creatorName nameType="Personal">Jeffrey J. Kersh</creatorName>
+            <givenName>Jeffrey</givenName>
+            <familyName>Kersh</familyName>
+            <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org/">0000-0001-1998-2021</nameIdentifier>
+            <affiliation xml:lang="En">Gonzaga University</affiliation>
+        </creator>
+    </creators>
+
+    <publisher xml:lang="En">ChEMBL</publisher>
+
+    <publicationYear>2020</publicationYear>
+
+    <resourceType resourceTypeGeneral="Dataset">Dataset</resourceType>
+
+    <subjects>
+        <subject subjectScheme="DDC" schemeURI="http://dewey.info/" xml:lang="En">547 Organic Chemistry</subject>
+    </subjects>
+
+    <contributors>
+        <contributor contributorType="ProjectLeader">
+            <contributorName>Jeff Watson</contributorName>
+            <givenName>Jeffery</givenName>
+            <familyName>Watson</familyName>
+            <nameIdentifier nameIdentifierScheme="ORCID" schemeURI="http://orcid.org/">0000-0002-6939-0137</nameIdentifier>
+            <affiliation xml:lang="En">Gonzaga University</affiliation>
+        </contributor>
+    </contributors>
+
+    <dates>
+        <date dateType="Submitted">05/09/2020</date>
+    </dates>
+
+    <descriptions>
+        <description xml:lang="En" descriptionType="Abstract">Burkholderia cenocepacia is an opportunistic lung pathogen that can be found in soil and water and is one of the highest causes of morbidity and mortality in cystic fibrosis patients. In immunocompromised individuals B. cenocepacia can colonize and is especially troublesome to treat since it is naturally resistant to a wide range of antibiotics. One interesting aspect of B. cenocepacia is its unique use of 3-hydroxy-3-methylglutaryl coenzyme A reductase (HMGR), which is crucial for isoprenoid biosynthesis in mammals, but serves a different function here. The unorthodox use of HMGR by this pathogen makes the enzyme a good potential drug target. As a morpheein, BcHMGR can exist in at least three different oligomeric states and interconvert between them by disassembling into subunits, which undergo conformational changes, and then reassemble into one of the oligomeric states, depending on the changes to the subunits. One factor that can affect the oligomeric state of the enzyme is the pH of its surroundings. In order to better understand BcHMGR’s morpheein behavior and how it can be exploited to develop treatments for B. cenocepacia infections in immunocompromised individuals, the enzymatic activity was observed over a pH range. The effect of pH on the enzymatic activity of the enzyme was evaluated and supported previous research that proposed the level of enzymatic activity was dependent on the oligomeric state of the enzyme. The results of this study also highlight the need for further characterization of the distribution of BcHMGR’s oligomeric states as a function of pH.</description>
+    </descriptions>
+
+    <language>En</language>
+</resource>
