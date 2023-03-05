@@ -29,12 +29,118 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.topnav {
+	background-color: cornflowerblue;
+	overflow: hidden;
+}
+	  
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: white;
+	text-align: center;
+	padding: .75em 0.9em;
+	text-decoration: none;
+	font-size: 1em;
+}
+	  
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: cornflowerblue;
+	color: black;
+}
+	  
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: cornflowerblue;
+	color: white;
+}
+
+#resume-main {
+	margin: auto;
+	max-width: 80vw;
+	padding: 2em 15vw 4em 15vw;
+	font-family: Garamond;
+}
+
+#resume-name {
+	color: black;
+	text-align: center;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+#resume-contact-info{
+	color: black;
+	text-align: center;
+}
+
+.resume-skills{
+	color: black;
+	padding-left: 3vw;
+	flex: 1;
+}
+
+.resume-flex-container {
+	display: flex;
+}
+
+#resume-experience{
+	color: black;
+	border-top: solid 2px #efefef;
+	margin: 1em 0 0 0;
+	padding: 1em 0 0 0;
+}
+
+#resume-education{
+	color: black;
+	border-top: solid 2px #efefef;
+	margin: 1em 0 0 0;
+	padding: 1em 0 0 0;
+}
+
+#resume-certificates{
+	color: black;
+	border-top: solid 2px #efefef;
+	margin: 1em 0 0 0;
+	padding: 1em 0 0 0;
+}
+
+.resume-headings {
+	/* color: black; */
+	color: cornflowerblue;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.resume-subheadings {
+	color: black;
+	margin-bottom: 0;
+	font-size:large;
+}
+
+.resume-subsubheadings {
+	color: cornflowerblue;
+	margin-bottom: 0;
+	font-weight: bold;
+}
+
+.resume-subsection {
+	padding-left: 4vw;
+	/* border-color: cornflowerblue;
+	border-style: solid;
+	border-width: 10px; */
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
 body {
 	line-height: 1;
 }
 
 ol, ul {
-	list-style: none;
+	/* list-style: none; */
+	margin-bottom: 1em;
 }
 
 blockquote, q {
@@ -98,7 +204,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #a2a2a2;
+		color: #413737;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
@@ -111,13 +217,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: cornflowerblue;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #49bf9d !important;
+			color: orange !important;
 			text-decoration: none;
 		}
 
@@ -135,7 +241,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #413737;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2682,10 +2788,12 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 35%;
-		max-width: 54em;
-		padding: 8em 4em 4em 4em;
-		width: calc(100% - 35%);
+		/* margin-left: 35%; */
+		/* max-width: 54em; */
+		margin: auto;
+		max-width: 80vw;
+		padding: 4em 4em 4em 4em;
+		/* width: calc(100% - 35%); */
 	}
 
 		#main > section {
