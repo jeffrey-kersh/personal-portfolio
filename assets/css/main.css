@@ -61,6 +61,7 @@ footer, header, hgroup, menu, nav, section {
 	max-width: 80vw;
 	padding: 2em 15vw 4em 15vw;
 	font-family: Garamond;
+	min-width: fit-content;
 }
 
 #resume-name {
